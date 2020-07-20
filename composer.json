@@ -1,11 +1,27 @@
 {
     "name": "privatejustice/cerebro",
     "description": "Cerebro para ajudar no desenvolvimento da justiça privada",
-    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "ancapistao",
+        "private",
+        "justice",
+        "private-justice",
+        "cerebro"
+    ],
+    "license": "ANCAP",
+    "homepage": "https://privatejustice.com/packages/cerebro",
+    "support": {
+        "email": "help@privatejustice.com.br",
+        "issues": "https://github.com/privatejustice/cerebro/issues",
+        "source": "https://github.com/privatejustice/cerebro",
+        "docs": "https://github.com/privatejustice/cerebro/blob/master/README.md"
+    },
     "authors": [
         {
-            "name": "Ricardo Rebello Sierra",
-            "email": "ricardo@sierratecnologia.com.br"
+            "name": "Private Justice",
+            "homepage": "https://privatejustice.com.br",
+            "email": "contributing@privatejustice.com.br"
         }
     ],
     "require": {
