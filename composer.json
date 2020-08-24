@@ -9,7 +9,7 @@
         "private-justice",
         "cerebro"
     ],
-    "license": "ANCAP",
+    "license": "MIT",
     "homepage": "https://privatejustice.com/packages/cerebro",
     "support": {
         "email": "help@privatejustice.com.br",
@@ -61,6 +61,11 @@
                 "scaffold-interface"
             ]
         }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true
