@@ -26,12 +26,14 @@
     ],
     "require": {
         "php": "^7.4",
+        "botman/botman": "^2.0|^3.0",
+        "donatello-za/rake-php-plus": "^1.0",
         "laravel/framework": "^7.0 || ^8.0",
-        "sierratecnologia/crypto": "dev-master",
-        "sierratecnologia/locaravel": "dev-master",
         "ricardosierra/translation": "dev-master",
+        "ricasolucoes/phpinsight": "^2.0",
         "sierratecnologia/addchat-laravel": "~1.1.0",
-        "botman/botman": "^2.0|^3.0"
+        "sierratecnologia/crypto": "dev-master",
+        "sierratecnologia/locaravel": "dev-master"
     },
     "autoload": {
         "psr-4": {
