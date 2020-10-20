@@ -34,7 +34,7 @@ class CerebroProvider extends ServiceProvider
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'cerebro');
         // $this->publishes(
         //     [
-        //     $viewsPath => base_path('resources/views/vendor/cerebro'),
+        //     $viewsPath => base_path('resources'.DIRECTORY_SEPARATOR.'views'.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'cerebro'),
         //     ], 'views'
         // );
 
