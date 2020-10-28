@@ -31,9 +31,11 @@
         "laravel/framework": "^7.0 || ^8.0",
         "ricardosierra/translation": "^0.4.0",
         "ricasolucoes/phpinsight": "^2.0",
-        "sierratecnologia/addchat-laravel": "~1.1.0",
         "sierratecnologia/crypto": "^0.4.0",
         "sierratecnologia/locaravel": "^0.4.0"
+    },
+    "suggest": {
+        "sierratecnologia/addchat-laravel": "^1.1.1"
     },
     "autoload": {
         "psr-4": {
