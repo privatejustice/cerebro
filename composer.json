@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.2|^8.0",
         "botman/botman": "^2.0|^3.0",
         "donatello-za/rake-php-plus": "^1.0",
         "laravel/framework": "^7.0 || ^8.0",
@@ -63,5 +63,8 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "phpro/grumphp": "^1.3"
+    }
 }
