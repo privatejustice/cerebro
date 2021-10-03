@@ -31,9 +31,17 @@
         "laravel/framework": "^7.0 || ^8.0",
         "ricardosierra/translation": "dev-master",
         "ricasolucoes/phpinsight": "^2.0",
-        "sierratecnologia/addchat-laravel": "~1.1.0",
+        "sierratecnologia/addchat-laravel": "^1.1.0",
         "sierratecnologia/crypto": "dev-master",
         "sierratecnologia/locaravel": "dev-master"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "^5.0|^6.0",
+        "phpunit/phpunit": "^9.3",
+        "psalm/plugin-laravel": "^1.5",
+        "vimeo/psalm": "^4.0",
+        "phpro/grumphp": ">=1.3"
     },
     "autoload": {
         "psr-4": {
@@ -41,9 +49,10 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [],
-        "post-update-cmd": [],
-        "post-create-project-cmd": []
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
     },
     "repositories": [{"type": "path","url":"../**","options":{"symlink": true}}],
     "extra": {
@@ -62,8 +71,5 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-        "phpro/grumphp": "^1.3"
-    }
+    "prefer-stable": true
 }
